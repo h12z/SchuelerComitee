@@ -199,5 +199,36 @@ td {
 
 #footer {
     position: absolute;
-    ma;
+    height: 200px;
+    width: 100%;
+    background-color: hsl(120, 100%, 7%);
+    margin-top: 1300px;
+    margin-bottom: 0;
+}
+
+#footer img {
+    margin-left: calc(50% - 25px);
+    margin-top: 35px;
+    width: 50px;
+}
+
+#footer_nav {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#footer_nav a {
+    color: white;
+    margin: 5px;
+}
+
+#footer_copyright {
+    margin-top: 30px;
+    text-align: center;
+}
+#footer_copyright a {
+    color: white;
+}
+#footer_copyright p {
+    color: white;
 }
