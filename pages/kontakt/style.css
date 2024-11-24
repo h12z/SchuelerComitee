@@ -1,0 +1,33 @@
+* {
+
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+#navbar {
+
+    margin-top: 15px;
+    padding-left: calc(50% - 160px);
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+
+}
+
+.navbar_item {
+
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+#contact {
+
+    text-underline: black;
+    text-decoration: underline;
+
+}

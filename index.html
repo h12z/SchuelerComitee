@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLG Schülercomitée</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
+</head>
+
+<body onload="loadLang(fr_FR())">
+
+<div id="navbar">
+
+    <div class="navbar_item" id="back">
+        <a href="https://mlg.lu" class="translatable" text="back"></a>
+    </div>
+
+    <div class="navbar_item" id="home">
+        <a href="index.html" class="translatable" text="home"></a>
+    </div>
+
+    <div class="navbar_item" id="contact">
+        <a href="pages/kontakt/kontakt.html" class="translatable" text="contact"></a>
+    </div>
+
+    <div class="navbar_item" id="langDropDownImage">
+        <img id="langSelectImg" src="icons/language_select.png" alt="lang">
+        <div id="langDropDown">
+            <div id="french" class="lang" onclick="french()">
+                <p style="pointer-events: none">Francais</p>
+            </div>
+            <div id="german" class="lang" onclick="german()">
+                <p style="pointer-events: none">German</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="body">
+
+    <p id="title_p1" class="translatable" text="title_p1"></p>
+
+    <p class="text translatable" text="text_p1_1"></p>
+
+    <table class="nenenetable">
+        <tbody class="nenenetablebody">
+        <tr class="tbrow">
+            <td class="tbentry translatable" text="list_p1_1">
+
+            </td>
+        </tr>
+        <tr class="tbrow">
+            <td class="tbentry translatable" text="list_p1_2">
+
+            </td>
+        </tr>
+        <tr class="tbrow">
+            <td class="tbentry translatable" text="list_p1_3">
+
+            </td>
+        </tr>
+        <tr class="tbrow">
+            <td class="tbentry translatable" text="list_p1_4">
+
+            </td>
+        </tr>
+        <tr class="tbrow">
+            <td class="tbentry translatable" text="list_p1_5">
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+    <p class="text translatable" text="text_p1_2"></p>
+    <p class="text translatable" text="text_p1_3"></p>
+    <p class="text translatable" text="text_p1_4"></p>
+
+    <p id="contact-text" class="text">
+        Contact:
+        <a href="mailto:comite-eleves@mlg.lu">comite-eleves@mlg.lu</a>
+    </p>
+    <br>
+    <p id="insta-text" class="text">
+        Instagram:
+        <a href="https://www.instagram.com/mlg.students/">MLG.Students</a>
+    </p>
+
+    <p id="title_p2" class="translatable" text="title_p2"></p>
+
+    <table id="staff_table">
+        <tbody>
+        <tr>
+            <td id="topleft" class="translatable" text="president"></td>
+            <td>Saha MURIC (2CC)</td>
+            <td id="topright"></td>
+        </tr>
+
+        <tr>
+            <td class="translatable" text="vice_president"></td>
+            <td>Amera DJECEVIC (3CLC)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="translatable" text="secretary"></td>
+            <td>Alvin MURIC (6C2)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="translatable" text="secretary_adjoint"></td>
+            <td>Alex BELLUSCI (5G2)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="translatable" text="tresorier"></td>
+            <td>Eduards NIKOLOVSKIS (2CG)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="translatable" text="members"></td>
+            <td>Amera DJECEVIC (3CLC)</td>
+            <td class="translatable" text="del_cons_ed_f"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Sam THOSS (2CD)</td>
+            <td class="translatable" text="del_cons_ed_m"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Amy THEISEN (4GSN)</td>
+            <td class="translatable" text="sup_cons_ed_f"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Eduards NIKOLOVSKIS (2CG)</td>
+            <td class="translatable" text="sup_cons_ed_f"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Sam THOSS (2CD)</td>
+            <td class="translatable" text="del_cn"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Amy THEISEN (4GSN)</td>
+            <td class="translatable" text="sup_cn"></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Mike BORGES FERNANDES (6P3)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Ana MILOVANOVIC (2GSO1)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Leonie THIEL (4C)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Joana NEUMANN (5G1)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td>Adeline YILDIRIM (6P3)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td id="bottomleft"></td>
+            <td>Henrik ZÄNGER (5C2)</td>
+            <td id="bottomright"></td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<div id="footer">
+    <div id="footer_nav">
+        <a href="https://mlg.lu/content_fr/contact.php">Contact</a>
+        <a href="mailto:secretariat@mlg.lu">Mail</a>
+        <a href="https://mlg.lu/content_fr/gdpr.php">GDPR</a>
+        <a href="https://mlg.lu/content_fr/links.php">Links</a>
+    </div>
+    <div id="footer_copyright">
+        <p>© Copyright by
+        <a href="index.html">Team MLG</a>
+        . Contact us for more information.</p>
+    </div>
+    <img src="icons/logo.png" alt="Logo">
+</div>
+
+</body>
+
+</html>
