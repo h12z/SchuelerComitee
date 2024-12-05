@@ -4,10 +4,20 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+
+    background-image: url("./icons/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(10px) brightness(70%);
+    background-attachment: fixed;
+
+}
+
 #navbar {
     width: 100%;
     height: 100px;
-    filter: drop-shadow(0 0 20px #5293B140);
+    filter: drop-shadow(0 0 20px #5293B190);
     position: fixed;
     display: grid;
     place-content: center;
@@ -28,6 +38,7 @@
 
 #title {
 
+    color: white;
     text-align: center;
     position: relative;
     margin-top: 50px;
@@ -44,7 +55,7 @@
     margin-right: 10vw;
 
     border-radius: 20px;
-    filter: drop-shadow(0 0 20px #5293B140);
+    filter: drop-shadow(0 0 20px #5293B190);
     background-color: white;
 
 }
@@ -56,7 +67,7 @@
     margin-right: 10vw;
 
     border-radius: 20px;
-    filter: drop-shadow(0 0 20px #5293B140);
+    filter: drop-shadow(0 0 20px #5293B190);
 
 }
 
@@ -68,7 +79,7 @@
     margin-right: 10vw;
 
     border-radius: 20px;
-    filter: drop-shadow(0 0 20px #5293B140);
+    filter: drop-shadow(0 0 20px #5293B190);
     background-color: white;
 
 }
@@ -145,7 +156,7 @@
         z-index: 20;
         position: relative;
         display: flex;
-        filter: drop-shadow(0 0 20px #5293B140);
+        filter: drop-shadow(0 0 20px #5293B190);
         align-items: center;
 
     }
@@ -207,7 +218,7 @@
         z-index: 20;
         position: relative;
         display: flex;
-        filter: drop-shadow(0 0 20px #5293B140);
+        filter: drop-shadow(0 0 20px #5293B190);
         justify-content: center;
 
     }
